@@ -1,5 +1,5 @@
 body {
-  margin-top: 80px;
+  margin-top: 100px;
   margin-left: 280px;
   background-color: #A9A9F5;
   color: #29088A;
@@ -7,15 +7,14 @@ body {
 
 ul.navbar {
   position: fixed;
-  top: 30px;
+  top: 65px;
   left: 15px;
   width: 150px;
   height: 1000px;
   list-style-type: none;
   border-left: 1px solid #29088A;
   background-image: url(skyrim.jpg);
-  background-position: 60% 00%;
-  background-repeat: no-repeat;
+  background-position: 100% 0%;
   background-attachment: fixed;
 }
 
@@ -67,7 +66,7 @@ header {
  	left: 0px;
 	right: 0px;
 	top: 0px;
-	height: 30px;
+	height: 50px;
 	margin: 0;
 	background-color: black;
 }
