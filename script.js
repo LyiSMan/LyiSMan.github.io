@@ -39,6 +39,7 @@ function init() {
 }
 
 function addItem() {
+
 	let item = document.getElementById("buttonn").value;
 	let txt = document.createTextNode(item);
 	let elt = document.createElement("li");
@@ -51,6 +52,16 @@ function addItem() {
 	if (groc) {
 		elt.style["text-decoration"] = "underline";
 	}
+
 	elt.appendChild(txt);
 	liste.appendChild(elt);
+
+}
+
+function removeItem() {
+
+	let nom = document.getElementById("list").getElementsByTagName("li")
+	let index = document.getElementById("buttom").value
+	document.getElementById("list").removeChild(nom.item(index-1))
+
 }
