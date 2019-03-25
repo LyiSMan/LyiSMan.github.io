@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+  	<header>
+  		
+  	</header>
+  	<ul class="navbar">
+      <p class="cad">Menu</p>
+      <li>
+        <a href="index.html">Home </a>
+      </li>
+      <li>
+        <a href="tasks.html">Tasks </a>
+      </li>
+      <li>
+        <a href="shopping.html">Shopping </a>
+      </li>
+      <li>
+        <a href="https://elderscrolls.bethesda.net/fr/skyrim">The Elder Scrolls | Home</a>
+      </li>
+    </ul>
+
+   	<div>
+      <label>
+        <input type="checkbox" id="imp">
+        Is important
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" id="gro">
+        Can be bought in groceries
+      </label>
+    </div>
+
+    <div id="unick">
+      <input type="text" id="buttonn">
+      <button onclick=addItem()>
+        add item
+      </button>
+      <input type="number" id="buttom" min="0">
+      <button onclick=removeItem()>
+        remove item
+      </button>
+      <p>Item to buy</p>
+      <ul id="list">
+        
+      </ul>
+    </div>
+    <script src="script.js"></script>
+
+
+
+  </body>
+</html>
